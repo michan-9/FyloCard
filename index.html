@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/png" />
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+  </head>
+  <body class="container">
+    <div class="header">
+      <h1 class="header__title">
+        <a href="#">
+          <img src="img/logo.svg" alt="Fylo Logo" class="header__img" />
+        </a>
+      </h1>
+
+      <div class="header__wrapper">
+        <svg class="header__icon">
+          <use href="img/sprite.svg#icon-document"></use>
+        </svg>
+        <svg class="header__icon">
+          <use href="img/sprite.svg#icon-folder"></use>
+        </svg>
+        <svg class="header__icon">
+          <use href="img/sprite.svg#icon-upload"></use>
+        </svg>
+      </div>
+    </div>
+    <div class="card">
+      <p class="card__text">
+        You've used <span class="bold">815 GB</span> of your storage
+      </p>
+      <div class="card__bar">
+        <div class="card__progress">
+          <div class="card__pointer">&nbsp;</div>
+        </div>
+      </div>
+      <div class="card__details">
+        <span class="card__text bold">0 GB</span
+        ><span class="card__text bold">1000 GB</span>
+      </div>
+      <div class="card__warning">
+        <span class="bold card__number">185</span>
+        <p class="card__paragraph">GB LEFT</p>
+      </div>
+    </div>
+  </body>
+</html>
